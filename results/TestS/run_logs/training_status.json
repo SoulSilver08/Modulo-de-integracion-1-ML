@@ -1,0 +1,65 @@
+{
+    "AgentTraining": {
+        "checkpoints": [
+            {
+                "steps": 499977,
+                "file_path": "results\\TestS\\AgentTraining\\AgentTraining-499977.onnx",
+                "reward": 0.725,
+                "creation_time": 1715324229.5053477,
+                "auxillary_file_paths": [
+                    "results\\TestS\\AgentTraining\\AgentTraining-499977.pt"
+                ]
+            },
+            {
+                "steps": 999995,
+                "file_path": "results\\TestS\\AgentTraining\\AgentTraining-999995.onnx",
+                "reward": 0.98,
+                "creation_time": 1715324934.6875756,
+                "auxillary_file_paths": [
+                    "results\\TestS\\AgentTraining\\AgentTraining-999995.pt"
+                ]
+            },
+            {
+                "steps": 1499961,
+                "file_path": "results\\TestS\\AgentTraining\\AgentTraining-1499961.onnx",
+                "reward": 1.0,
+                "creation_time": 1715325656.8614578,
+                "auxillary_file_paths": [
+                    "results\\TestS\\AgentTraining\\AgentTraining-1499961.pt"
+                ]
+            },
+            {
+                "steps": 1999965,
+                "file_path": "results\\TestS\\AgentTraining\\AgentTraining-1999965.onnx",
+                "reward": 0.9272727272727272,
+                "creation_time": 1715326362.7971842,
+                "auxillary_file_paths": [
+                    "results\\TestS\\AgentTraining\\AgentTraining-1999965.pt"
+                ]
+            },
+            {
+                "steps": 2000029,
+                "file_path": "results\\TestS\\AgentTraining\\AgentTraining-2000029.onnx",
+                "reward": 0.9272727272727272,
+                "creation_time": 1715326362.8470814,
+                "auxillary_file_paths": [
+                    "results\\TestS\\AgentTraining\\AgentTraining-2000029.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000029,
+            "file_path": "results\\TestS\\AgentTraining.onnx",
+            "reward": 0.9272727272727272,
+            "creation_time": 1715326362.8470814,
+            "auxillary_file_paths": [
+                "results\\TestS\\AgentTraining\\AgentTraining-2000029.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "2.2.0+cu118"
+    }
+}

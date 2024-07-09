@@ -1,0 +1,29 @@
+{
+    "AgentTraining": {
+        "checkpoints": [
+            {
+                "steps": 18120,
+                "file_path": "results\\TestRayObs3\\AgentTraining\\AgentTraining-18120.onnx",
+                "reward": -0.375,
+                "creation_time": 1715568125.3723161,
+                "auxillary_file_paths": [
+                    "results\\TestRayObs3\\AgentTraining\\AgentTraining-18120.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 18120,
+            "file_path": "results\\TestRayObs3\\AgentTraining.onnx",
+            "reward": -0.375,
+            "creation_time": 1715568125.3723161,
+            "auxillary_file_paths": [
+                "results\\TestRayObs3\\AgentTraining\\AgentTraining-18120.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "2.2.0+cu118"
+    }
+}

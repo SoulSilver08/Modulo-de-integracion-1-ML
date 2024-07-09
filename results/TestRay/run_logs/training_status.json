@@ -1,0 +1,65 @@
+{
+    "AgentTraining": {
+        "checkpoints": [
+            {
+                "steps": 499992,
+                "file_path": "results\\TestRay\\AgentTraining\\AgentTraining-499992.onnx",
+                "reward": 1.0,
+                "creation_time": 1715546311.6801517,
+                "auxillary_file_paths": [
+                    "results\\TestRay\\AgentTraining\\AgentTraining-499992.pt"
+                ]
+            },
+            {
+                "steps": 999983,
+                "file_path": "results\\TestRay\\AgentTraining\\AgentTraining-999983.onnx",
+                "reward": 0.7735849056603774,
+                "creation_time": 1715547019.5395207,
+                "auxillary_file_paths": [
+                    "results\\TestRay\\AgentTraining\\AgentTraining-999983.pt"
+                ]
+            },
+            {
+                "steps": 1499985,
+                "file_path": "results\\TestRay\\AgentTraining\\AgentTraining-1499985.onnx",
+                "reward": 1.0,
+                "creation_time": 1715547709.472983,
+                "auxillary_file_paths": [
+                    "results\\TestRay\\AgentTraining\\AgentTraining-1499985.pt"
+                ]
+            },
+            {
+                "steps": 1999946,
+                "file_path": "results\\TestRay\\AgentTraining\\AgentTraining-1999946.onnx",
+                "reward": 1.0,
+                "creation_time": 1715548400.542616,
+                "auxillary_file_paths": [
+                    "results\\TestRay\\AgentTraining\\AgentTraining-1999946.pt"
+                ]
+            },
+            {
+                "steps": 2000004,
+                "file_path": "results\\TestRay\\AgentTraining\\AgentTraining-2000004.onnx",
+                "reward": 1.0,
+                "creation_time": 1715548400.5917022,
+                "auxillary_file_paths": [
+                    "results\\TestRay\\AgentTraining\\AgentTraining-2000004.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000004,
+            "file_path": "results\\TestRay\\AgentTraining.onnx",
+            "reward": 1.0,
+            "creation_time": 1715548400.5917022,
+            "auxillary_file_paths": [
+                "results\\TestRay\\AgentTraining\\AgentTraining-2000004.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "2.2.0+cu118"
+    }
+}

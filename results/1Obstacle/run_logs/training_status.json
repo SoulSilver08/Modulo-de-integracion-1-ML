@@ -1,0 +1,65 @@
+{
+    "AgentTraining": {
+        "checkpoints": [
+            {
+                "steps": 999979,
+                "file_path": "results\\1Obstacle\\AgentTraining\\AgentTraining-999979.onnx",
+                "reward": 2.368518518214976,
+                "creation_time": 1715923057.0503786,
+                "auxillary_file_paths": [
+                    "results\\1Obstacle\\AgentTraining\\AgentTraining-999979.pt"
+                ]
+            },
+            {
+                "steps": 1289209,
+                "file_path": "results\\1Obstacle\\AgentTraining\\AgentTraining-1289209.onnx",
+                "reward": 3.0,
+                "creation_time": 1715923624.923958,
+                "auxillary_file_paths": [
+                    "results\\1Obstacle\\AgentTraining\\AgentTraining-1289209.pt"
+                ]
+            },
+            {
+                "steps": 1499963,
+                "file_path": "results\\1Obstacle\\AgentTraining\\AgentTraining-1499963.onnx",
+                "reward": 2.078378377935371,
+                "creation_time": 1715923999.603491,
+                "auxillary_file_paths": [
+                    "results\\1Obstacle\\AgentTraining\\AgentTraining-1499963.pt"
+                ]
+            },
+            {
+                "steps": 1999988,
+                "file_path": "results\\1Obstacle\\AgentTraining\\AgentTraining-1999988.onnx",
+                "reward": 2.7304347824791204,
+                "creation_time": 1715924773.0327413,
+                "auxillary_file_paths": [
+                    "results\\1Obstacle\\AgentTraining\\AgentTraining-1999988.pt"
+                ]
+            },
+            {
+                "steps": 2000016,
+                "file_path": "results\\1Obstacle\\AgentTraining\\AgentTraining-2000016.onnx",
+                "reward": 2.7416666665424905,
+                "creation_time": 1715924773.0808525,
+                "auxillary_file_paths": [
+                    "results\\1Obstacle\\AgentTraining\\AgentTraining-2000016.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000016,
+            "file_path": "results\\1Obstacle\\AgentTraining.onnx",
+            "reward": 2.7416666665424905,
+            "creation_time": 1715924773.0808525,
+            "auxillary_file_paths": [
+                "results\\1Obstacle\\AgentTraining\\AgentTraining-2000016.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "2.2.0+cu118"
+    }
+}

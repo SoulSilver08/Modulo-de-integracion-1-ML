@@ -1,0 +1,47 @@
+{
+    "AgentTraining": {
+        "checkpoints": [
+            {
+                "steps": 499938,
+                "file_path": "results\\TestRayObs0\\AgentTraining\\AgentTraining-499938.onnx",
+                "reward": -4.5,
+                "creation_time": 1715558366.8792546,
+                "auxillary_file_paths": [
+                    "results\\TestRayObs0\\AgentTraining\\AgentTraining-499938.pt"
+                ]
+            },
+            {
+                "steps": 999972,
+                "file_path": "results\\TestRayObs0\\AgentTraining\\AgentTraining-999972.onnx",
+                "reward": -4.5,
+                "creation_time": 1715559073.7704825,
+                "auxillary_file_paths": [
+                    "results\\TestRayObs0\\AgentTraining\\AgentTraining-999972.pt"
+                ]
+            },
+            {
+                "steps": 1352274,
+                "file_path": "results\\TestRayObs0\\AgentTraining\\AgentTraining-1352274.onnx",
+                "reward": -10.666666666666666,
+                "creation_time": 1715559571.3989732,
+                "auxillary_file_paths": [
+                    "results\\TestRayObs0\\AgentTraining\\AgentTraining-1352274.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1352274,
+            "file_path": "results\\TestRayObs0\\AgentTraining.onnx",
+            "reward": -10.666666666666666,
+            "creation_time": 1715559571.3989732,
+            "auxillary_file_paths": [
+                "results\\TestRayObs0\\AgentTraining\\AgentTraining-1352274.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "2.2.0+cu118"
+    }
+}

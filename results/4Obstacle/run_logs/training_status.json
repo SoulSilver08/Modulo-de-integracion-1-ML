@@ -1,0 +1,47 @@
+{
+    "AgentTraining": {
+        "checkpoints": [
+            {
+                "steps": 499957,
+                "file_path": "results\\4Obstacle\\AgentTraining\\AgentTraining-499957.onnx",
+                "reward": 0.3902439024390244,
+                "creation_time": 1715980492.1458879,
+                "auxillary_file_paths": [
+                    "results\\4Obstacle\\AgentTraining\\AgentTraining-499957.pt"
+                ]
+            },
+            {
+                "steps": 999966,
+                "file_path": "results\\4Obstacle\\AgentTraining\\AgentTraining-999966.onnx",
+                "reward": 0.4583333333333333,
+                "creation_time": 1715981761.4326675,
+                "auxillary_file_paths": [
+                    "results\\4Obstacle\\AgentTraining\\AgentTraining-999966.pt"
+                ]
+            },
+            {
+                "steps": 1379512,
+                "file_path": "results\\4Obstacle\\AgentTraining\\AgentTraining-1379512.onnx",
+                "reward": 0.3333333333333333,
+                "creation_time": 1715982586.6009598,
+                "auxillary_file_paths": [
+                    "results\\4Obstacle\\AgentTraining\\AgentTraining-1379512.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1379512,
+            "file_path": "results\\4Obstacle\\AgentTraining.onnx",
+            "reward": 0.3333333333333333,
+            "creation_time": 1715982586.6009598,
+            "auxillary_file_paths": [
+                "results\\4Obstacle\\AgentTraining\\AgentTraining-1379512.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "2.2.0+cu118"
+    }
+}

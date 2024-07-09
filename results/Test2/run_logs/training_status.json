@@ -1,0 +1,38 @@
+{
+    "AgentTraining": {
+        "checkpoints": [
+            {
+                "steps": 499973,
+                "file_path": "results\\Test2\\AgentTraining\\AgentTraining-499973.onnx",
+                "reward": -84.22950819672131,
+                "creation_time": 1715310643.7156982,
+                "auxillary_file_paths": [
+                    "results\\Test2\\AgentTraining\\AgentTraining-499973.pt"
+                ]
+            },
+            {
+                "steps": 500037,
+                "file_path": "results\\Test2\\AgentTraining\\AgentTraining-500037.onnx",
+                "reward": -84.22950819672131,
+                "creation_time": 1715310643.9179413,
+                "auxillary_file_paths": [
+                    "results\\Test2\\AgentTraining\\AgentTraining-500037.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500037,
+            "file_path": "results\\Test2\\AgentTraining.onnx",
+            "reward": -84.22950819672131,
+            "creation_time": 1715310643.9179413,
+            "auxillary_file_paths": [
+                "results\\Test2\\AgentTraining\\AgentTraining-500037.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "2.2.0+cu118"
+    }
+}
